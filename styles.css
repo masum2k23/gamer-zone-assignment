@@ -215,6 +215,9 @@ nav>ul p {
 }
 
 /* Vide section end */
+
+
+/* Card Styles start */
 .card-section {
     display: flex;
     align-content: center;
@@ -222,10 +225,13 @@ nav>ul p {
     gap: 24px;
 }
 
-/* Card Styles start */
-
-
-
+.card-3{
+    position: relative;
+    width: 50%;
+}
+.card-3 img{
+    
+}
 
 /* ====== RESPONSIVE SECTION ====== */
 /* mobile responsive section 576px  */
