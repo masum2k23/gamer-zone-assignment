@@ -155,21 +155,78 @@ nav>ul p {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
-.blue-btn{
-padding: 21px 40px;
-gap: 10px;
-border-radius: 48px;
-background: #4EC5F7;
-border: none;
-color: #FFF;
-font-size: 20px;
-font-weight: 600;
+
+.blue-btn {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-.cta-btn-section{
+.cta-btn-section {
     margin: 0px;
     padding-top: 0px;
 }
+
+/* We are Gamer Secton Start */
+
+
+
+
+
+/* We are Gamer section end */
+
+/* Online Games Funny Video Section Start */
+
+.online-games {
+    text-align: center;
+    padding: 0px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.text-info h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-info p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.funny-vid {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Vide section end */
+.card-section {
+    display: flex;
+    align-content: center;
+    padding-left: 420px;
+    gap: 24px;
+}
+
+/* Card Styles start */
+
+
+
+
 /* ====== RESPONSIVE SECTION ====== */
 /* mobile responsive section 576px  */
 @media screen and (max-width:576px) {}
