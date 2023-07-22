@@ -21,9 +21,9 @@
     margin-right: 240px;
 }
 
-.nav-items {
+/* .nav-items {
     margin-left:
-}
+} */
 
 .left-logo {
     display: flex;
@@ -83,13 +83,18 @@ nav>ul p {
 }
 
 /* Banner style start */
+.banner-container {
+    width: 1920px;
+    height: 600px;
+}
+
 .banner-content-left {
     background-image: url("/images/Group\ 14.png");
     width: 901px;
     height: 700px;
-    flex-shrink: 0;
     padding-left: 240px;
     margin-left: 240px;
+    margin-top: 85px;
 }
 
 .banner-content-left h2 {
@@ -107,7 +112,6 @@ nav>ul p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
     font-size: 95px;
     font-weight: 800;
 }
@@ -258,7 +262,109 @@ footer {
     height: 636px
 }
 
-.footer-container {}
+/* Games Section styles start */
+.game-list-section {
+    height: 427px;
+    background-color: #fcf5f5;
+}
+.game-list-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 120px;
+}
+.game-list-items-2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 55px;
+}
+.button {
+    background-color: #fcf5f5;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 243px;
+    height: 80px;
+}
+
+.button-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.button-1:hover {
+    background-color: #ffffff;
+    color: #f33eae;
+    border: 2px solid #f33eae;
+}
+.button-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.button-2:hover {
+    background-color: #ffffff;
+    color: #f33eae;
+    border: 2px solid #f33eae;
+}
+.button-3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.button-3:hover {
+    background-color: #ffffff;
+    color: #f33eae;
+    border: 2px solid #f33eae;
+}
+
+.button-4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.button-4:hover {
+    background-color: #ffffff;
+    color: #f33eae;
+    border: 2px solid #f33eae;
+}
+.button-5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.button-5:hover {
+    background-color: #ffffff;
+    color: #f33eae;
+    border: 2px solid #f33eae;
+}
+/* .footer-container {} */
 
 .footer-logo {
     font-size: 45px;
@@ -293,10 +399,6 @@ footer {
     text-decoration: none;
 }
 
-/* .social-media {
-
-} */
-
 .social-media a {
     padding-left: 40px;
 }
@@ -328,4 +430,9 @@ footer {
 
 /* ====== RESPONSIVE SECTION ====== */
 /* mobile responsive section 576px  */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+
+}
+/* understand the concept but due to job pressure could not focus and 
+spend time in this section, however i will do it again from scratch 
+to get it perfect.*/
