@@ -179,6 +179,37 @@ nav>ul p {
 
 
 /* We are Gamer section end */
+/* Play Instantly, section start */
+.play-instantly {
+    display: flex;
+}
+
+.play-instantly h3 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+
+.play-inst-text-info {
+    padding-left: 240px;
+    margin-left: 240px;
+    padding-right: 120px;
+}
+.play-inst-text-info span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.rec-66{
+    position: absolute;
+    padding-top:  320px;
+
+}
 
 /* Online Games Funny Video Section Start */
 
@@ -267,18 +298,21 @@ footer {
     height: 427px;
     background-color: #fcf5f5;
 }
-.game-list-items{
+
+.game-list-items {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding-top: 120px;
 }
-.game-list-items-2{
+
+.game-list-items-2 {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding-top: 55px;
 }
+
 .button {
     background-color: #fcf5f5;
     border: none;
@@ -308,6 +342,7 @@ footer {
     color: #f33eae;
     border: 2px solid #f33eae;
 }
+
 .button-2 {
     display: flex;
     align-items: center;
@@ -316,11 +351,13 @@ footer {
     background-color: white;
     color: black;
 }
+
 .button-2:hover {
     background-color: #ffffff;
     color: #f33eae;
     border: 2px solid #f33eae;
 }
+
 .button-3 {
     display: flex;
     align-items: center;
@@ -350,6 +387,7 @@ footer {
     color: #f33eae;
     border: 2px solid #f33eae;
 }
+
 .button-5 {
     display: flex;
     align-items: center;
@@ -364,6 +402,7 @@ footer {
     color: #f33eae;
     border: 2px solid #f33eae;
 }
+
 /* .footer-container {} */
 
 .footer-logo {
@@ -430,9 +469,8 @@ footer {
 
 /* ====== RESPONSIVE SECTION ====== */
 /* mobile responsive section 576px  */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) {}
 
-}
 /* understand the concept but due to job pressure could not focus and 
 spend time in this section, however i will do it again from scratch 
 to get it perfect.*/
