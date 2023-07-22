@@ -285,12 +285,45 @@ footer {
     justify-content: center;
 }
 
-.footer-menue li a{
+.footer-menue li a {
     padding-right: 60px;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+}
+
+/* .social-media {
+
+} */
+
+.social-media a {
+    padding-left: 40px;
+}
+
+.social-media {
+    padding-left: 700px;
+    margin-left: 220px;
+    margin-top: 56px;
+}
+
+.terms-codition ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.terms-codition a {
+    text-decoration: none;
+    padding-right: 60px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.copyright-content {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* ====== RESPONSIVE SECTION ====== */
